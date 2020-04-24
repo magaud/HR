@@ -1,0 +1,40 @@
+-R . HR
+
+# HRw based on axiomatic non-standard integers and/or Laugwitz-Schmieden
+Numbers.v
+Numbers_facts.v
+HRw.v
+HRwequal.v
+HRwgt.v
+HRw_spec.v
+Heyting_field.v
+Bridges_order.v
+LUB_spec.v
+
+# HRw based on axiomatic non-standard integers
+Bridges_order2_AX.v
+LUB_spec_AX.v
+sequences_AX.v
+LUB_proof_AX.v
+
+# HRw based on Laugwitz-Schmieden 
+w.v
+Bridges_order2_LS.v
+LUB_spec_LS.v
+sequences_LS.v
+LUB_proof_LS.v
+
+# Laugwitz-Schemieden 
+Ltac.v
+LaugwitzSchmieden.v
+
+# Computations - Euler scheme
+w_n.v
+w_2n.v
+w_n2.v
+Euler.v
+
+# Connecting HRw with Reals (CoRN)
+#HRw0_basic_facts.v
+#HRw0.v
+#HRw0_iso.v
