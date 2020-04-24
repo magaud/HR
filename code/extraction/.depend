@@ -1,0 +1,11 @@
+colors.cmo :
+colors.cmx :
+draw.cmo :
+draw.cmx :
+euler.cmo : euler.cmi
+euler.cmx : euler.cmi
+euler.cmi :
+euler_drawing.cmo : euler.cmi draw.cmo
+euler_drawing.cmx : euler.cmx draw.cmx
+examples_drawing.cmo : euler_drawing.cmo euler.cmi colors.cmo
+examples_drawing.cmx : euler_drawing.cmx euler.cmx colors.cmx
